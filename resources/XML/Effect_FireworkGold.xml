@@ -62,7 +62,7 @@
             <Tex time="1">/ParticleSystem/firework/firework_gold.png</Tex>
             <Size>
                 <UseTexture>1</UseTexture>
-                <ParticleSize>0.039999999</ParticleSize>
+                <ParticleSize>0.08</ParticleSize>
                 <BirthTime>0</BirthTime>
                 <DeathTime>0.5</DeathTime>
                 <BlendingTime>0</BlendingTime>
