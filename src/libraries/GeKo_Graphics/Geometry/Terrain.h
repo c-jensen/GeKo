@@ -4,6 +4,8 @@
 #include <time.h>
 #include <iostream>
 
+/**The terrain class will provide a terrain, which will be generated with a hight map. Just juse the 
+constructor and give it the height map.*/
 class Terrain : public Geometry {
 
 

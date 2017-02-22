@@ -19,7 +19,7 @@
 #include <GeKo_Sound/SoundFileHandler.h>
 
 ///A Node contains information, which can be rendered in the world
-/**A "Node" should be a container for Geometry, Material, Lights, Cameras, KI and Player and provides all the information a shader could need
+/**A "Node" should be a container for Geometry, Material, Lights, Cameras, KI and Player etc. and provides all the information a shader could need
   like a Modelmatrix for example. It has one parent and can have a lot of children or none. Every Node exists as long as the scenegraph */
 class Node
 {

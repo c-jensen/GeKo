@@ -9,10 +9,11 @@ public:
 
 	~Gravity();
 
+	///Returns a changed modelMatrix
+	/**The modelmatrix of an object will be changed so the object seems to fall down by gravitation*/
 	glm::mat4 addGravity(glm::mat4 modelMatrix);
 
 	glm::vec3 getGravity();
-
 	void setGravity(glm::vec3 newGravity);
 
 

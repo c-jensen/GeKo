@@ -21,6 +21,7 @@ enum SoundtypeAI{
 	MOVESOUND_AI, EATSOUND_AI, DEATHSOUND_AI, DEATHSOUND_FLIES_AI
 };
 
+///This class provides an interface for all types of AI-units. Decision-making and path-finding is provided.
 class AI : public Object, public Subject<AI, Object_Event>
 {
 public:

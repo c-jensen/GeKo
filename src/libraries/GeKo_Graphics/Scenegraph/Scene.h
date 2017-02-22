@@ -25,8 +25,10 @@ public:
 	/**/
 	Scenegraph* getScenegraph();
 	void setScenegraph(Scenegraph* scenegraph);
+
 	Node* getSkyboxNode();
 	void setSkyboxNode(Node* skyboxNode);
+	///This method checks if a skybox was set
 	bool hasSkybox();
 
 	///The render call which will be forwarded to the scenegraph object of the scene

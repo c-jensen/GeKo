@@ -12,7 +12,7 @@
 #include "ClassType.h"
 #include "States.h"
 
-
+///This interface provides all information an object could need, like inventory, level, sound etc.
 class Object
 {
 public: 

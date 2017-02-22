@@ -7,6 +7,7 @@
 
 #include "ItemType.h"
 
+///Every Item has a name and a id and every Item is of a specific type.
 class Item
 {
 public: 
@@ -17,6 +18,7 @@ public:
 	void setId(int id);
 	void setName(std::string name);
 	void setTypeId(ItemType id);
+
 	ItemType getTypeId();
 
 	protected:

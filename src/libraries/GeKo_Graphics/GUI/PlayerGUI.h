@@ -4,7 +4,7 @@
 #include <GeKo_Gameplay/Object/Player.h>
 #include <GeKo_Gameplay/Questsystem/QuestHandler.h>
 
-// Shader variables
+/** A class which provides a GUI for the player. It will provide all informations like exp, level and health.*/
 class PlayerGUI{
 public:
 	PlayerGUI(const int hudWidth, const int hudHeight, const int windowHeight, const int windowWidth, const int questHeight, const int questWidth, Player* player, QuestHandler* qH);
@@ -16,7 +16,9 @@ public:
 	void setTexture(char* fileName);
 	std::map<std::string, Texture*>* getInventory();
 
+	///Updates all the information in the GUI
 	void update();
+
 	void youWon();
 	void youLost();
 

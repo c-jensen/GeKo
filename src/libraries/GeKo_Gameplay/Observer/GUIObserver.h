@@ -4,7 +4,7 @@
 #include <GeKo_Graphics/Scenegraph/Node.h>
 #include <GeKo_Graphics/Scenegraph/Level.h>
 
-/**Handles all the gravity-effects of the game.*/
+/**Handles all the changes of the GUI.*/
 class GUIObserver : public Observer<Object, Object_Event>
 {
 public:

@@ -7,6 +7,7 @@
 
 #include "Object.h"
 
+///This class represents objects like trees, which are not controlled by the player or by a AI
 class StaticObject : public Object
 {
 public: 

@@ -3,6 +3,7 @@
 #include <vector>
 #include <glm/ext.hpp>
 
+///This class just provides data for an example Forest
 namespace TreeData{
 
 static const	std::vector<glm::vec3> forest1{ glm::vec3(16.0, 0.0, 76.0), glm::vec3(23.0, 0.0, 74.0),

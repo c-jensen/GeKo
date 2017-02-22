@@ -16,6 +16,7 @@
 #include <vector>
 #include "GeKo_Sound/SoundFileHandler.h"
 
+///This class represents an anthome and is used to generate ants at a certain spawning position.
 class AntHome : public StaticObject{
 public:
 	AntHome();

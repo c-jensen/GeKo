@@ -2,6 +2,7 @@
 
 #include "GeKo_Gameplay/Object/AI.h"
 
+///This class represents a AI which will react and decide like an Ant. 
 class Ant : public AI
 {
 public:

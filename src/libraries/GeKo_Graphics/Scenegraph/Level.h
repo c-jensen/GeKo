@@ -11,6 +11,7 @@
 /**
 The class "Level" has a unique name and can be identified with this name. 
 A level manages his scenes, can change them, add and remove them. It provides a Quest-Handler and a Fight-System Object.
+Furthermore a level can have a terrain and one or more guis. 
 */
 class Level
 {
@@ -56,8 +57,11 @@ public:
 	void setTerrain(Terrain* terrain);
 	Terrain* getTerrain();
 
+	///This method checks if a terrain was defined for this level
 	bool hasTerrain();
 
+	///This methods adds a GUI for the level
+	/**The GUI will be add to a vector and then it can be rendered*/
 	void addGUI(GUI* gui);
 	GUI* getGUI(std::string name);
 
